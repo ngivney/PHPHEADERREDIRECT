@@ -1,4 +1,5 @@
 <?php
+/* If the redirect button is clicked, user is redirected to the specified URL */
 if (isset($_POST['redirect'])) {
 header("location:https://www.google.com");
 }
